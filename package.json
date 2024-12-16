@@ -1,0 +1,25 @@
+{
+  "name": "scrapertutti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/puppeteer": "^7.0.4"
+  },
+  "dependencies": {
+    "@ghostery/adblocker-puppeteer": "^2.0.4",
+    "json-2-csv": "^5.5.7",
+    "puppeteer": "^23.6.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-adblocker": "^2.13.6",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.8",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
